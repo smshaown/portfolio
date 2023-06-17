@@ -77,3 +77,12 @@ textarea{
 img{
     max-width: 100%;
 }
+
+.grid{
+    display: grid;
+    gap: 30px;
+}
+
+.section{
+    padding-block: 70px;
+}
