@@ -14,16 +14,21 @@ const Home = () => {
             </div>
 
             <div className='home__content'>
-                <div className='home_data'>
-                    <h1 className='home-title'>
-                        <span>I'm S M Shaown</span> Web Designer
+                <div className='home__data'>
+                    <h1 className='home__title'>
+                        <span>I'm S M Shaown.</span> <br/> Web Designer
                     </h1>
-                    <p>I'm a Tunisian based web designer & front-end developer focused on crafting clean $ user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+
+                    <p className='home__description'>I'm a Tunisian based web designer & front-end developer focused on crafting clean $ user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+
+                    <Link to="/about" className='button'>
+                    More About Me <span className='button__icon'><FaArrowRight className='mt-5 ml-5' /></span>
+                 </Link>
                 </div>
-                <Link to="/about" className='button'>
-                    More About Me <span className='button_icon'><FaArrowRight /></span>
-                </Link>
+              
             </div>
+
+            <div className='color__block'></div>
         </section>
     );
 };
