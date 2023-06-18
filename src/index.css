@@ -108,6 +108,11 @@ img{
 }
 
 
+.section__title span{
+    color: var(--first-color);
+}
+
+
 .button{
     display: inline-block;
     color: var(--title-color);
