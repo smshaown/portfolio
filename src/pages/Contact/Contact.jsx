@@ -23,7 +23,7 @@ const Contact = () => {
 
               <div>
                 <span className='info__title'>S M Shaown</span>
-                <span className="info__des">smshaown65@gmail.com</span>
+                <h4 className="info__des">smshaown65@gmail.com</h4>
               </div>
             </div>
 
@@ -33,23 +33,23 @@ const Contact = () => {
 
               <div>
                 <span className='info__title'>Cll Me</span>
-                <span className="info__des">+088 1709198065</span>
+                <h4 className="info__des">+088 1709198065</h4>
               </div>
             </div>
           </div>
 
           <div className="contact__socials">
             <a href="https://facebook.com" className='contact__social-link'>
-              <FaFacebook />
+              <FaFacebook className='mt-3 ml-3' />
             </a>
             <a href="https://twitter.com" className='contact__social-link'>
-              <FaTwitter />
+              <FaTwitter className='mt-3 ml-3' />
             </a>
             <a href="https://youtube.com" className='contact__social-link'>
-              <FaYoutube />
+              <FaYoutube className='mt-3 ml-3' />
             </a>
             <a href="https://dribbble.com" className='contact__social-link'>
-              <FaDribbble />
+              <FaDribbble className='mt-3 ml-3'  />
             </a>
           </div>
 
