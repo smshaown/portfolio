@@ -10,11 +10,11 @@ const Themes = () => {
     return (
         <div className='style__switcher'>
         <div className="style__switcher-toggler">
-            <FaCog/>
+            <FaCog className='mt-4 ml-4' />
         </div>
 
-        <div className='theme__toggel'>
-            <BsMoon />
+        <div className='theme__toggler'>
+            <BsMoon className='mt-4 ml-4' />
         </div>
 
         <h3 className='style__switcher-title'>Style Switcher</h3>
