@@ -24,11 +24,11 @@ const PorfolioItem = ({img, title, details}) => {
                 modal && (
                     <div className="portfolio__modal">
                     <div className='portfolio_modal-content'>
-                        <img src={Close} alt="" className="modal__close" />
+                        <img src={Close} alt="" className="modal__close" onClick={toggleModal} />
 
                         <h3 className='modal__title'>{title}</h3>
 
-                        <ul className='model__list grid'>
+                        <ul className='modal__list grid'>
                             {details.map(({icon, title, desc}, index) => {
                                 return(
                                     <li className="modal__item" key={index}> 
