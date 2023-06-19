@@ -1,10 +1,8 @@
 import React from 'react';
 
-const ThemesItem = () => {
+const ThemesItem = ({color, img}) => {
     return (
-        <div>
-            
-        </div>
+       <img src={img} className='theme__img' alt="" />
     );
 };
 

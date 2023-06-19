@@ -1,0 +1,16 @@
+.style__switcher{
+    position: fixed;
+    left: 0;
+    top: 10%;
+    background-color: var(--text-white);
+    width: 220px;
+    padding: 15px;
+    box-shadow: 0 0 4px hsl(0, 0%, 80%);
+}
+
+.style__switcher,
+.style__switcher-toggler,
+.theme__toggler{
+    border-radius: 0 5px 5px 0;
+}
+
