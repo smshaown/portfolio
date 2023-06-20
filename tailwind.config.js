@@ -7,6 +7,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  themes: ["light", "dark", "cupcake"],
 }
 
